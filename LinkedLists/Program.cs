@@ -85,6 +85,7 @@ class Program
         myList.printAllNodes();
         Console.WriteLine("-----------------");
         myList.RemoveInt(1);
+        myList.RemoveInt(2);
         myList.printAllNodes();
     }
 }
